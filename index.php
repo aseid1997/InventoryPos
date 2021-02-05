@@ -1,5 +1,5 @@
  <!-- jQuery -->
- <script src="plugins/jquery/jquery.min.js"></script>
+    <script src="plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap 4 -->
     <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- AdminLTE App -->
@@ -30,7 +30,7 @@ if(isset($_POST['btn_login'])){
         $_SESSION['role']= $admin['role'];
 
         echo 'script type = "text/javascript">
-        $(function validation(){
+        jQuery(function validation(){
             swal({
                 title: "Good job!",
                 text: "You clicked the button!",
@@ -52,10 +52,10 @@ if(isset($_POST['btn_login'])){
         echo 'script type = "text/javascript">
         $(function validation(){
             swal({
-title: "Good Job!' . $_SESSION['username'].'";
-text: "You clicked the button";
-icon: success";
-button: "Loading...."
+            title: "Good Job!' . $_SESSION['username'].'";
+            text: "You clicked the button";
+            icon: success";
+            button: "Loading...."
             });
         });
         </script>';
