@@ -5,7 +5,7 @@
     <!-- AdminLTE App -->
     <script src="dist/js/adminlte.min.js"></script>
     
-    <script src="plugins/sweetalert2/sweetalert2.all.js"></script>
+    <script src="plugins/sweetalert/sweetalert.js"></script>
 <?php
 include_once('connect_db.php');
 
